@@ -4,6 +4,8 @@ Kiosk-mode web interface for smart storage locker systems. Built with Vue 3 and 
 
 Users can rent a locker cell, store items, scan a receipt to retrieve them, extend storage time, and pay fines — all through an intuitive touch interface with a custom on-screen keyboard.
 
+**Live demo:** https://locker-frontend-qp6g.onrender.com/
+
 ![Screenshot](screenshot.png)
 
 ## Deployment & Architecture
