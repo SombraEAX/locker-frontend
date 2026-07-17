@@ -1,0 +1,43 @@
+{
+	"childs": [
+		{
+			"width": 80,
+			"childs": [
+              { "height": 70, "type": "L", "id": 1, "available": false, "status": "free", "blocked": false },
+              { "height": 20, "type": "M", "id": 2, "available": false, "status": "occupied", "blocked": true },
+              { "height": 20, "type": "M", "id": 3, "available": true, "status": "occupied", "blocked": false },
+              { "height": 20, "type": "M", "id": 4, "available": true, "status": "timeout", "blocked": false },
+              { "height": 30, "type": "M", "id": 5, "available": true, "status": "free", "blocked": false },
+              { "height": 30, "type": "M", "id": 6, "available": true, "status": "free", "blocked": false },
+              { "height": 30, "type": "M", "id": 7, "available": true, "status": "free", "blocked": true },
+              { "height": 40, "type": "M", "id": 8, "available": true, "status": "free", "blocked": true },
+              { "height": 40, "type": "M", "id": 9, "available": true, "status": "free", "blocked": false },
+              { "height": 40, "type": "M", "id": 10, "available": true, "status": "free", "blocked": false }
+			]
+		},
+		{
+			"width":80,
+			"childs": [
+				{ "height": 70, "type": "L", "id": 11, "available": true, "status": "free", "blocked": false },
+              	{ "height": 20, "type": "M", "id": 12, "available": true, "status": "free", "blocked": false },
+              	{ "height": 20, "type": "M", "id": 13, "available": true, "status": "free", "blocked": false },
+              	{ "height": 20, "type": "M", "id": 14, "available": true, "status": "free", "blocked": false },
+              	{ "height": 30, "type": "M", "id": 15, "available": true, "status": "free", "blocked": false },
+              	{ "height": 30, "type": "M", "id": 16, "available": true, "status": "free", "blocked": false },
+				{ "height": 40, "type": "M", "id": 17, "available": true, "status": "free", "blocked": false },
+				{ "height": 110, "type": "XL", "id": 18, "available": true, "status": "free", "blocked": false }
+			]
+		}, {
+			"width":80,
+			"childs": [
+				{ "height": 70, "type": "L", "id": 19, "available": true, "status": "free", "blocked": false },
+              	{ "height": 80, "type": "none", "id": 20, "available": true, "status": "none", "blocked": false },
+              	{ "height": 50, "type": "M", "id": 21, "available": true, "status": "free", "blocked": false },
+              	{ "height": 50, "type": "M", "id": 22, "available": true, "status": "free", "blocked": false },
+              	{ "height": 50, "type": "M", "id": 23, "available": true, "status": "free", "blocked": false },
+              	{ "height": 20, "type": "M", "id": 24, "available": true, "status": "free", "blocked": false },
+              	{ "height": 20, "type": "M", "id": 25, "available": true, "status": "free", "blocked": false }
+			]
+		}
+	]
+}

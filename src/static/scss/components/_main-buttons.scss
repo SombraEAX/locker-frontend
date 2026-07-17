@@ -1,0 +1,36 @@
+@use "../base/grid" as *;
+
+.main-buttons {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__item {
+    width: 100%;
+    flex: 1;
+    max-height: 15rem;
+    margin-bottom: 2rem;
+    font-size: 6.9rem;
+    display: flex;
+    flex-direction: column;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    @include sm-block() {
+      font-size: 4rem;
+      max-height: 11rem;
+    }
+    @include xs-block() {
+      font-size: 2.8rem;
+      max-height: 8rem;
+      padding-bottom: 0;
+    }
+  }
+}
+
+@media (orientation: portrait) {
+  .main-buttons__item {
+    font-size: 10.35rem;
+    max-height: 22.5rem;
+  }
+}

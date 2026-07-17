@@ -1,0 +1,58 @@
+@use "sass:color";
+@use "../../abstracts" as *;
+@use "../../base/grid" as *;
+
+.btn[disabled]{
+  opacity:0.5
+}
+
+.btn {
+  position: relative;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  display: flex;
+  height: 9rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: $border-radius;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  flex-shrink: 0;
+  padding: 0 8rem 1rem 8rem;
+  cursor: default;
+  @include sm-block() {
+    font-size: 3.5rem;
+    height: 7.5rem;
+    padding: 0 6rem .5rem 6rem;
+  }
+  @include xs-block() {
+    border-radius: $border-radius-mobile;
+    font-size: 2.5rem;
+    height: 6rem;
+    padding: 0 4rem .5rem 4rem;
+  }
+
+
+  &-primary {
+    color: $color-text-dark;
+    background-color: $color-secondary;
+    &:active {
+      background-color: color.adjust($color-secondary, $lightness: -15%);
+    }
+  }
+  &[disabled] {
+    pointer-events: none;
+  }
+}
+
+@media (orientation: portrait) {
+  .btn {
+    font-size: 15rem;
+    height: 27rem;
+    padding: 0 24rem 3rem 24rem;
+  }
+}
+
+

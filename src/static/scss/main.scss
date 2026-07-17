@@ -1,0 +1,22 @@
+// abstracts
+@use "abstracts" as *;
+@use "abstracts/fonts";
+// base
+@use "base/reset";
+@use "base/grid" as *;
+@use "base/global";
+// components
+@use "components/index";
+// pages
+html{
+	-moz-user-select: none;
+	user-select:none;
+
+}
+@font-face {
+	font-family: 'NerdFont'; 
+	src: url(/fonts/nerdfonts.ttf); 
+}
+.nerd{
+	font-family:'NerdFont'
+}

@@ -1,0 +1,9 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+@include font-face('Exo2', $path-font + '/Exo2/Exo2-Light', $light, normal, woff woff2);
+@include font-face('Exo2', $path-font + '/Exo2/Exo2-Regular', $normal, normal, woff woff2);
+@include font-face('Exo2', $path-font + '/Exo2/Exo2-Medium', $medium, normal, woff woff2);
+@include font-face('Exo2', $path-font + '/Exo2/Exo2-SemiBold', $semibold, normal, woff woff2);
+@include font-face('Exo2', $path-font + '/Exo2/Exo2-Bold', $bold, normal, woff woff2);
+@include font-face('Exo2', $path-font + '/Exo2/Exo2-Black', $black, normal, woff woff2);

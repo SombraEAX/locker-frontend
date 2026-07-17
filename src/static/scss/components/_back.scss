@@ -1,0 +1,29 @@
+@use "../base/grid" as *;
+
+.back {
+  font-size: 3.8rem;
+  line-height: 1;
+  cursor: default;
+  @include sm-block() {
+    font-size: 2.8rem;
+  }
+  @include xs-block() {
+    font-size: 1.8rem;
+  }
+}
+
+@media (orientation: portrait) {
+  .back {
+    font-size: 7.6rem;
+  }
+  @include sm-block() {
+    .back {
+      font-size: 5.6rem;
+    }
+  }
+  @include xs-block() {
+    .back {
+      font-size: 3.6rem;
+    }
+  }
+}

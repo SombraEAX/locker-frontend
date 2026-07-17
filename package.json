@@ -1,0 +1,48 @@
+{
+  "name": "postamat-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky",
+    "lint": "eslint src --ext .js,.ts,.vue",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.25.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "husky": "^9.1.7",
+    "jsdom": "^29.1.1",
+    "lint-staged": "^17.0.8",
+    "postcss-sort-media-queries": "^3.9.10",
+    "prettier": "^2.3.0",
+    "sass": "^1.101.0",
+    "typescript": "^5.0.0",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0",
+    "vue-tsc": "^2.0.0"
+  },
+  "dependencies": {
+    "pinia": "^2.0.0",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint --fix",
+    "*.{js,ts,vue,scss,html}": "prettier --write"
+  }
+}

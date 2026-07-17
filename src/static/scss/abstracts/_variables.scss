@@ -1,0 +1,36 @@
+$color-red: #ff4747;
+$color-white: #fff;
+$color-grey: #CAC9C9;
+$color-blueLight: #C1BEE0;
+$color-blue: #3C3E8C;
+$color-blueDark: #333956;
+$color-yellow: #E8D675;
+
+$color-primary: $color-white;
+$color-secondary: $color-yellow;
+
+$color-bg: $color-blue;
+$color-text: $color-primary;
+$color-text-dark: $color-blueDark;
+
+$border-radius: 3.5rem;
+$border-radius-mobile: 2.5rem;
+
+// Font Family
+$baseFont: 'Exo2', sans-serif;
+
+// Font Weight
+$light: 100;
+$normal: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$black: 900;
+
+// Font Sizing
+$baseFontSize: 1.6rem;
+$baseLineHeight: 1.5;
+$headingLineHeight: 1.3;
+
+// Path
+$path-font: '/fonts';
