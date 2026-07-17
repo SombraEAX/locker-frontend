@@ -18,7 +18,6 @@
   "license": "ISC",
   "browserslist": "> 0.25%, not dead",
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "@vitejs/plugin-vue": "^5.0.0",
